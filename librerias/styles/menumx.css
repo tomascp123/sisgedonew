@@ -1,0 +1,8 @@
+TABLE 	{BORDER:0px}
+A		{COLOR:#000099;TEXT-DECORATION:none}
+A:hover	{TEXT-DECORATION:underline}
+.N	{HEIGHT:24px;BACKGROUND-IMAGE:url(../imagenes/bgcolor.gif)}
+.O TD	{HEIGHT:20px;WHITE-SPACE:nowrap}
+.P	{font-family: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE:12px; PADDING-LEFT:4px;PADDING-RIGHT:4px;CURSOR:pointer;}
+.T	{font-family: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE:12px; PADDING-LEFT:3px;PADDING-RIGHT:3px;BACKGROUND-COLOR:#e9f2f8;BORDER:1px solid #336699;CURSOR:pointer}
+.LL {PADDING-LEFT:1px}

@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Portal Web</title>
+<script>
+
+function bNavegador(){
+  if( navigator.appName )
+  {
+    if( navigator.appName == "Microsoft Internet Explorer")  return 1;
+    if( navigator.appName == "Netscape")  return 2;
+  }
+  return 0;
+}
+
+function AbreVentana(sURL){
+  var w=640, h=480;
+
+  if (window.screen && window.screen.availHeight) {
+    h = window.screen.availHeight - 58; // 58
+    w = window.screen.availWidth - 4;
+  }
+
+  var ventana=window.open(sURL, "Sistema", "status=yes,resizable=yes,toolbar=no,scrollbars=yes,top=0,left=0,width=" + w + ",height=" + h, 1 );
+  ventana.focus();
+}
+</script>
+</head>
+<body>
+<p><a href="javascript:AbreVentana('app/main.php?ini=ini')">Aplicacion WEB: Sistema de Gesti&oacute;n Documentaria</a></p>
+</body>
+</html>

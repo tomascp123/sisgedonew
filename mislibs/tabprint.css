@@ -1,0 +1,7 @@
+body 			{ margin:0px; font:15pt 'helvetica neue', helvetica, arial, sans-serif; }
+@page printed 	{ margin:1cm; }
+.etiqueta{font:8pt 'helvetica neue', helvetica, arial, sans-serif; }
+.cajatexto{font:8pt 'helvetica neue', helvetica, arial, sans-serif; }
+.titutramite {font-size:8px; }
+.tuplagrid {font-size:8px; }
+.gridfondo { width:90% }

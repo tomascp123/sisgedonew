@@ -1,0 +1,152 @@
+#nav		{ position:absolute;  top:50px; width:100%; float:left; margin:0px 0px 0px 0px; padding:0px;}
+/* The tabs - based on the css sliding doors technique */
+#tabs	 	{
+	position:relative;
+	top:0px;
+	left:0px;
+	margin:0px 0px 0px 15%;
+	padding:0px;
+	list-style:none;
+}
+#tabs a  	{
+	display:block;
+	float:left;
+	margin:0px;
+	padding:4px 25px 3px 4px;
+	text-decoration:none;
+
+}
+/* Commented Backslash Hack
+   hides rule from IE5-Mac \*/
+#tabs a { float:none; }
+/* End IE5-Mac hack */
+#tabs a:link {
+	color:#202020;
+}
+#tabs a:visited {
+	color:#202020;
+}
+#tabs a:hover 	{
+	color:#006486; 
+	text-decoration:underline;
+}
+#tabs a:active 	{
+	color:#006486;
+}
+#tabs li 	{
+	float:left;
+	margin:0px;
+	padding:0px 0px 0px 6px;
+}
+#tabs ul 	{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+body.start #tabs li.sta 	{ background:url("../imagenes/db_home-left.gif") no-repeat left top; }
+body.start #tabs li.sta a	{ background:url("../imagenes/db_home-right.gif") no-repeat right top; font-weight:bold; }
+body.start #tabs li.sta a:link 	{ color:#fff; }
+body.start #tabs li.sta a:visited 	{ color:#fff; }
+body.start #tabs li.sta a:hover 	{ color:#64bfdb; text-decoration:underline; }
+body.start #tabs li.sta a:active 	{ color:#64bfdb; }
+body.start #tabs .dev	 	{ background:url("../imagenes/lb_home-left.gif") no-repeat left top; }
+body.start #tabs .dev a 	{ background:url("../imagenes/lb_home-right.gif") no-repeat right top; }
+body.start #tabs .sol	 	{ background:url("../imagenes/lb_home-left.gif") no-repeat left top; }
+body.start #tabs .sol a 	{ background:url("../imagenes/lb_home-right.gif") no-repeat right top; }
+body.start #tabs .osh	 	{ background:url("../imagenes/lb_home-left.gif") no-repeat left top; }
+body.start #tabs .osh a	{ background:url("../imagenes/lb_home-right.gif") no-repeat right top; }
+body.start #tabs .os2	 	{ background:url("../imagenes/lb_home-left.gif") no-repeat left top; }
+body.start #tabs .os2 a	{ background:url("../imagenes/lb_home-right.gif") no-repeat right top; }
+
+body.developers #tabs li.dev 	{ background:url("../imagenes/db_dev-left.gif") no-repeat left top; }
+body.developers #tabs li.dev a	{ background:url("../imagenes/db_dev-right.gif") no-repeat right top; font-weight:bold; }
+body.developers #tabs li.dev a:link 		{ color:#fff; }
+body.developers #tabs li.dev a:visited 	{ color:#fff; }
+body.developers #tabs li.dev a:hover 	{ color:#64bfdb; text-decoration:underline; }
+body.developers #tabs li.dev a:active 	{ color:#64bfdb; }
+body.developers #tabs .sta	 	{ background:url("../imagenes/lb_home-left.gif") no-repeat left top; }
+body.developers #tabs .sta a		{ background:url("../imagenes/lb_shop-right.gif") no-repeat right top; }
+body.developers #tabs .sol	 	{ background:url("../imagenes/lb_dev-left.gif") no-repeat left top; }
+body.developers #tabs .sol a		{ background:url("../imagenes/lb_dev-right.gif") no-repeat right top; }
+body.developers #tabs .osh		{ background:url("../imagenes/lb_dev-left.gif") no-repeat left top; }
+body.developers #tabs .osh a		{ background:url("../imagenes/lb_dev-right.gif") no-repeat right top; }
+body.developers #tabs .os2		{ background:url("../imagenes/lb_dev-left.gif") no-repeat left top; }
+body.developers #tabs .os2 a		{ background:url("../imagenes/lb_dev-right.gif") no-repeat right top; }
+
+body.solutions #tabs li.sol 	{ background:url("../imagenes/db_sol-left.gif") no-repeat left top; }
+body.solutions #tabs li.sol a	{ background:url("../imagenes/db_sol-right.gif") no-repeat right top; font-weight:bold; }
+body.solutions #tabs li.sol a:link 		{ color:#fff; }
+body.solutions #tabs li.sol a:visited 	{ color:#fff; }
+body.solutions #tabs li.sol a:hover 	{ color:#64bfdb; text-decoration:underline; }
+body.solutions #tabs li.sol a:active 	{ color:#64bfdb; }
+body.solutions #tabs .sta		{ background:url("../imagenes/lb_home-left.gif") no-repeat left top; }
+body.solutions #tabs .sta a		{ background:url("../imagenes/lb_sol-right2.gif") no-repeat right top; }
+body.solutions #tabs .dev	 	{ background:url("../imagenes/lb_sol-left2.gif") no-repeat left top; }
+body.solutions #tabs .dev a		{ background:url("../imagenes/lb_sol-right2.gif") no-repeat right top; }
+body.solutions #tabs .osh 		{ background:url("../imagenes/lb_sol-left.gif") no-repeat left top; }
+body.solutions #tabs .osh a		{ background:url("../imagenes/lb_sol-right.gif") no-repeat right top; }
+body.solutions #tabs .os2 		{ background:url("../imagenes/lb_sol-left.gif") no-repeat left top; }
+body.solutions #tabs .os2 a		{ background:url("../imagenes/lb_sol-right.gif") no-repeat right top; }
+
+body.oshop #tabs li.osh 	{ background:url("../imagenes/db_shop-left.gif") no-repeat left top; }
+body.oshop #tabs li.osh a	{ background:url("../imagenes/db_shop-right.gif") no-repeat right top; font-weight:bold; }
+body.oshop #tabs li.osh a:link 	{ color:#fff; }
+body.oshop #tabs li.osh a:visited 	{ color:#fff; }
+body.oshop #tabs li.osh a:hover 	{ color:#64bfdb; text-decoration:underline; }
+body.oshop #tabs li.osh a:active 	{ color:#64bfdb; }
+body.oshop #tabs .sta		{ background:url("../imagenes/lb_home-left.gif") no-repeat left top; }
+body.oshop #tabs .sta a	{ background:url("../imagenes/lb_shop-right.gif") no-repeat right top; }
+body.oshop #tabs .dev a	{ background:url("../imagenes/lb_shop-right.gif") no-repeat right top; }
+body.oshop #tabs .sol a	{ background:url("../imagenes/lb_shop-right.gif") no-repeat right top; }
+body.oshop #tabs .os2 a		{ background:url("../imagenes/lb_shop-right.gif") no-repeat right top; }
+
+body.os2hop #tabs li.os2 	{ background:url("../imagenes/db_shop-left.gif") no-repeat left top; }
+body.os2hop #tabs li.os2 a	{ background:url("../imagenes/db_shop-right.gif") no-repeat right top; font-weight:bold; }
+body.os2hop #tabs li.os2 a:link 	{ color:#fff; }
+body.os2hop #tabs li.os2 a:visited 	{ color:#fff; }
+body.os2hop #tabs li.os2 a:hover 	{ color:#64bfdb; text-decoration:underline; }
+body.os2hop #tabs li.os2 a:active 	{ color:#64bfdb; }
+body.os2hop #tabs .sta		{ background:url("../imagenes/lb_home-left.gif") no-repeat left top; }
+body.os2hop #tabs .sta a	{ background:url("../imagenes/lb_shop-right.gif") no-repeat right top; }
+body.os2hop #tabs .dev a	{ background:url("../imagenes/lb_shop-right.gif") no-repeat right top; }
+body.os2hop #tabs .sol a	{ background:url("../imagenes/lb_shop-right.gif") no-repeat right top; }
+body.os2hop #tabs .osh a		{ background:url("../imagenes/lb_shop-right.gif") no-repeat right top; }
+
+/* The blue menubar below the tabs */
+#menu		{
+	background:#026789 url("../imagenes/mid.gif") repeat-x bottom;
+	float:left;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top:-1px;
+	width:100%;
+	color:#fff;
+}
+
+#menu a				{ text-decoration:none; }
+#menu a:link 		{ color:#fff; }
+#menu a:visited		{ color:#fff; }
+#menu a:hover 		{ color:#64bfdb; text-decoration:underline; }
+#menu a:active		{ color:#64bfdb; }
+
+#menu ul				{
+	background:#ccc;
+	list-style:none;
+	margin:0px;
+	padding:0px 0px 0px 0%;
+}
+
+#menu li				{
+	background:url("../imagenes/menusep.png") no-repeat center right;
+	float:left;
+	margin:0px;
+	padding:3px 4px 6px 6px;
+}
+
+#menu li a			{
+	margin:0px;
+	padding:0px 4px 0px 0px;
+	white-space:nowrap;
+}

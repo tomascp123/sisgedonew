@@ -1,0 +1,151 @@
+/* CSS Document */
+body,td	{ font:70%/126% verdana, arial, helvetica, sans-serif;}
+
+#capaobjetos{position:relative;}
+.cajatexto{font-family: Tahoma, Verdana, Arial; font-size: 11px; color: #333333; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-color:#CCCCCC}
+.titulo{font-weight: bold;font-size: 14px;color: #990000;}
+.marco{background-color: #D1D7DC; }
+.etiqueta{background-color: #D1D7DC;font-weight: bold; font-size: 10px; color:#006699; text-decoration: none;}
+.seccion{background-color: #EFEFEF;font-weight: bold; font-size: 11px; color:#666666; text-decoration: none; height:18px;
+	background-image: url(../librerias/imagenes/titulo2.jpg);}
+
+/*para cuando la seccion no tiene titulo */
+.seccionblank{background-color: #EFEFEF;font-weight: bold; font-size: 11px; color:#666666; text-decoration: none;}
+.titrelacionados{background-color: #EFEFEF; font-weight: bold; font-size: 11px; color:#000000 }
+.titrela{background-color: #056B9E; font-weight: bold; font-size: 11px; color:#FFA34F }
+.error{background-color: #EFEFEF;font-weight: bold; font-size: 11px; color:#FF0000; font-style:italic; text-decoration: none;}
+.erroretiqueta{background-color: #D1D7DC;font-weight: bold; font-size: 10px; color:#FF0000; text-decoration: none;}
+.subseccion{font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #333333;}
+.objeto{background-color: #EFEFEF;}
+
+/* color para el fondo de los formularios en este caso azul*/
+.backform{background-color: #4791C5;}
+.msjConfirma {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color:#006CA0;
+}
+.tituConfirma {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF; }
+.linkConfirma {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	}
+.linkConfirma:link,.linkConfirma:hover,.linkConfirma:active,.linkConfirma:visited 	{text-decoration:underline;}
+.linkBusca {
+	color:#0000FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	}
+.linkBusca:link,.linkBusca:hover,.linkBusca:active,.linkBusca:visited 	{text-decoration:underline;}
+	
+/* colores para el form */
+.frmline  { background-color: #FFFFFF; border: 2px #006699 solid; }
+.frmline2 { background-color: #FFFFFF; }
+
+/* topform */
+th	{
+	color: #FFA34F; font-size: 12px; font-weight : bold;
+	background-color: #096EA1; height: 25px;
+	background-image: url(../librerias/imagenes/formpic3.gif);
+}
+.th.thLeft {font-weight: bold; border: #FFFFFF; border-style: solid; height: 28px;border-width: 0px 0px 0px 1px;}
+
+/* bottform */
+td.catBottom {
+			background-image: url(../librerias/imagenes/formpic1.gif);
+			background-color:#D1D7DC; border: #FFFFFF; border-style: solid; height: 19px;border-width: 0px 1px 1px 1px;
+			height: 20px;border-width: 0px 0px 0px 0px;
+}
+td.spaceRow {	background-color: #D1D7DC; border: #FFFFFF; border-style: solid;border-width: 0px 1px 0px 1px; }
+
+/* Form elements */
+input,textarea, select {
+	color : #000000;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border-color : #000000;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+	background-color : #FFFFFF;
+}
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	background-color : #EFEFEF;
+	color : #000000;
+	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif
+	border-color:#000000;
+}
+
+/* CSS para GRIDSIMPLE.php */
+.gridfondo { width:100% } 
+.gridhead {background-color: #748AB6;  font-size:10px; }
+.gridhead:link   {text-decoration: none;  color: #FFFFFF;}
+.gridhead:visited {text-decoration: none;	color: #FFFFFF;}
+.gridhead:hover {text-decoration: none;	color: #666666;}
+.gridhead:active {text-decoration: none;	color: #000000;}
+.griddatos {} 
+.gridfilaon {font-family: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE:12px; PADDING-LEFT:3px;PADDING-RIGHT:3px;BACKGROUND-COLOR:#C1CDD8} 
+.gridfilaoff{font-family: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE:12px; PADDING-LEFT:4px;PADDING-RIGHT:4px}
+
+/* FIN CSS PARA GRIDSIMPLE.PHP*/
+.titutramite { color:#FFFFFF; background-color:#748AB6;  font-size:10px; }
+.tuplagrid {font-size:10px; font-family:Tahoma, Arial, sans-serif; color: #000000}
+
+/* CSS para TABS.php */
+.PPModuleTtlTxt {font-weight: bold;}body,div,span,p {font-family: Tahoma, Arial, sans-serif; }body {margin: 0px 0px 0px 0px;}body a {text-decoration: none;}
+.tabsonline,.tabsoffline,.tabsoffline a {font-size: 12px; color:#FFFFFF; text-decoration: none; }.tabsoffline a:active,.tabsoffline a:link,.tabsoffline a:visited,.tabsonline a:link,.tabsonline a:visited {text-decoration: none; color:#FFFFFF;}.tabsline {background-image: url(../librerias/imagenes/tabbackline.gif); background-position: bottom; background-repeat: repeat-x;}.tabsoff {color: #ffffff;}.tabsoffline {background-image: url(../librerias/imagenes/tabbglineoff.gif);  background-repeat: repeat-x;}.tabson {color: #ffffff;}.tabsonline {background-image: url(../librerias/imagenes/tabbglineon.gif); background-repeat: repeat-x;}.maintable .tabstext {color: #ffffff;}.maintable .tabs {vertical-align:bottom;}
+.tabsoffline a:hover,.tabsonline a:hover {text-decoration: none; color:#D1D7DC;}
+.pie { 
+border-top-style:groove;
+}
+.boton
+{
+	border-right: #cccccc 1px outset;
+	border-top: #cccccc 1px outset;
+	background-repeat: repeat-x;
+    background-color:transparent;
+}
+.botonx
+{
+	border-right: #cccccc 1px outset;
+	border-top: #cccccc 1px outset;
+	font-weight: bold;
+	font-size: 10px;
+	background-image: url(../librerias/imagenes/formpic1.gif);
+	border-left: #cccccc 1px outset;
+	border-bottom: #cccccc 1px outset;
+	background-repeat: repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #eeeeee;
+}
+
+/* CSS para Botones de popup búsqueda */
+button
+{
+	PADDING-RIGHT:10px;
+	PADDING-LEFT:10px;
+	BORDER-RIGHT: #cccccc 1px outset;
+	BORDER-TOP: #cccccc 1px outset;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	BORDER-LEFT: #cccccc 1px outset;
+	BORDER-BOTTOM: #cccccc 1px outset;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #eeeeee;
+	background-repeat:  repeat-x;
+}
+
+
+/* Para el div divExpdte*/
+#divExpdte{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+dt { width: 10em; float: left; text-align: right; color: #000000} /* Espacio entre objetos */
+dd { margin-left: 11em; }
+/* */

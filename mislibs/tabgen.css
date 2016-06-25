@@ -1,0 +1,27 @@
+
+/* work around issue with docbook-generated pages */
+p			{ margin:0px 0px 12px 0px; padding:0px; }
+/* The top background graphics for Devzone, Solution Center and Online Shop */
+#header					{ position:absolute; top:0px; left:0px; width:100%; height:75px; max-width:100%; }
+body.developers #header 		{ background:#004e61 url("../imagenes/dz.jpg") repeat-y; }
+body.solutions #header 	{ background:#fffbc9 url("../imagenes/sol.jpg") repeat-y; }
+body.oshop #header 		{ background:#c8e0e8 url("../imagenes/shop.jpg") repeat-y; }
+body.os2hop #header 		{ background:#c8e0e8 url("../imagenes/shop.jpg") repeat-y; }
+/* 	Layout	
+	The container div embrace the whole layout; max-width and min-width won't work on Internet Explorer */
+#logo		{ position:absolute; top:0px; left:1%; margin:0px; padding:0px; z-index:0; }
+#tag		{ position:absolute; top:0px; left:15%; margin:0px; padding:0px; z-index:0;
+color:#026789; font-weight:bold; font-family:Arial, Helvetica, sans-serif;}
+#tag3		{ position:absolute; top:45px; left:85%; margin:0px; padding:0px; z-index:100; }
+#head		{ position:absolute; left:11px; top:8px; width:98%; height:60px; text-align:right; margin:0px; padding:0px; }
+#search		{ float:right; width:200px; margin:-5px 120px 10px 10px; text-align:left; }
+
+/* Forms				*/
+form		{ margin:0px; padding:0px; }
+.frm		{ border:1px solid #7f7f7f; padding:2px 1px 0px 1px; line-height:80%; }
+.submit2	{ background:#006486; padding:0px; margin:0px; color:#fff; font-weight:bold; font-size:90%; border:1px solid #006486; }
+.Anulado{
+	color:#FF0000;
+	font-size: 16pt;
+}
+#divlogoRight		{ position:absolute; top:-5px; right:1%; margin:0px; padding:0px; z-index:0; }

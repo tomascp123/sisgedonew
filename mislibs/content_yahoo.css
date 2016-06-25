@@ -1,0 +1,881 @@
+.contentBODY {
+	background-color: #FFFFFF;
+}
+
+.contentBODYTRANS {
+	background-color: #FFFFE3;
+}
+
+.BievenidaTitulo{
+	color: #475C91;
+	font-size: 16pt;
+}
+
+.BievenidaSubTit{
+	color: #D28C34;
+	font-size: 16pt;
+}
+
+.linha {
+	color: #3D77CB;
+	size: 1px;
+}
+.acoes {
+	text-align: right;
+}
+.acoescenter {
+	text-align: center;
+}
+
+.acoesleft {
+	text-align: left;
+}
+
+A.link:LINK {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #006699;
+	text-decoration: none;
+}
+A.link:ACTIVE {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #006699;
+	text-decoration: none;
+}
+A.link:VISITED {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #006699;
+	text-decoration: none;
+}
+A.link:HOVER {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #006699;
+	text-decoration: underline;
+}
+
+A.botao:LINK {
+	background-color: #ECECEC;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #AAAAAA
+}
+A.botao:ACTIVE {
+	background-color: #ECECEC;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #AAAAAA
+}
+A.botao:VISITED {
+	background-color: #ECECEC;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #AAAAAA
+}
+A.botao:HOVER {
+	background-color: #DDDDDD;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #CED0C0;
+}
+
+A.contrasena:LINK {
+	background-color: #D6DEEC;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #AAAAAA
+}
+A.contrasena:ACTIVE {
+	background-color: #D6DEEC;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #AAAAAA
+}
+A.contrasena:VISITED {
+	background-color: #D6DEEC;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #AAAAAA
+}
+A.contrasena:HOVER {
+	background-color: #95B3DE;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #CED0C0;
+}
+
+
+
+
+
+.titulo {
+	font-size: 14px;
+	color: #3162A6;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-weight: bold;
+	text-transform: none;
+}
+.subtitulo {
+	font-size: 12px;
+	color: #95B3DE;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: none;
+}
+
+.FormTABLE {
+	border: 0px solid #CCCCCC;
+}
+.FormHeaderTD {
+	background-color: #95B3DE;
+	text-align: Center;
+	border-bottom: 2px solid #F0F0F0;
+}
+.FormHeaderFONT {
+	font-size: 10pt;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Trebuchet MS, Verdana, Helvetica
+}
+.FormTotalTD {
+	background-color: #95B3DE;
+	border-bottom: 2px solid #F0F0F0;
+}
+.FormTotalFONT {
+	font-size: 10pt;
+	color: #000000;
+	font-weight: bold;
+	font-family: Trebuchet MS, Verdana, Helvetica
+}
+
+.FieldCaptionTD {
+	background-color: #93B6D2;
+	text-align: right;
+}
+.FieldCaptionFONT {
+	font-size: 8pt;
+	color: #000000;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+.DataTD {
+/*	background-color: #F6F6F6; */
+	border-bottom: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+	padding: 2px;
+	vertical-align: middle;
+}
+.AlternateDataTD {
+/*	background-color: #FFFFFF; */
+	border-bottom: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+	padding: 2px;
+}
+
+.BackTD {background-color: #F6F6F6; } 
+
+.AlternateBackTD {	background-color: #FFFFFF; } 
+
+.RecordSeparatorTD {
+	background-color: #D6DEEC;
+	border-bottom: 1px solid #A0A0A0;
+}
+.RecordSeparatorFONT {
+	font-size: 8pt;
+	color: #003399;
+	font-weight: bold;
+	padding: 2px;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+.DataFONT {
+	font-size: 10px;
+	color: #000000;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+
+}
+
+.Bordeatabla {
+	font-size: 10px;
+	color: #000000;
+	font-weight:700;
+	background:#D6DEEC;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+
+.ValueFONT {
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+
+}
+
+.MiniDataFONT {
+	font-size: 7pt;
+	color: #222222;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+.ColumnFONT {
+	font-size: 10px;
+	color: #4569B0;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+.ColumnTD {
+	background-color: #E6E6E6;
+	height: 22px;
+	padding: 2px;
+	border-right: 1px solid #C1C1C1;
+	border-bottom: 1px solid #C1C1C1;
+	border-left: 1px solid #F0F0F0;
+}
+.LabelFONT {
+	font-size: 8pt;
+	color: #555555;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+.LabelTD {
+	background-color: #F0F0F0;
+	text-align: right;
+	height: 22px;
+	padding: 2px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.LabelTDTRANS {
+	background-color: #FFFFE3;
+	text-align: right;
+	height: 22px;
+	padding: 2px;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+A.ColumnFontLink:LINK {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 10px;
+	font-style: normal;
+	color: #4569B0;
+	text-decoration: none;
+	font-weight: bold
+}
+A.ColumnFontLink:ACTIVE {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 10px;
+	font-style: normal;
+	color: #4569B0;
+	text-decoration: none;
+	font-weight: bold
+}
+A.ColumnFontLink:VISITED {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 10px;
+	font-style: normal;
+	color: #4569B0;
+	text-decoration: none;
+	font-weight: bold
+}
+A.ColumnFontLink:HOVER {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 10px;
+	font-style: normal;
+	color: #4569B0;
+	text-decoration: underline;
+	font-weight: bold
+}
+
+/***********************************************************************************************/
+.FundoABA {
+	background-color: #FFFFFF
+}
+.SelecionadaABA {
+	background-color: #3D77CB;
+	border-right: 1px solid #CCCCCC;
+}
+.SelecionadaFontABA {
+	font-size: 8pt;
+	color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-weight: bold;
+}
+.NaoSelecionadaABA {
+	background-color: #F0F0F0;
+	border-right: 1px solid #CCCCCC;
+
+}
+.NaoSelecionadaFontABA {
+	font-size: 8pt;
+	color: #666666;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-weight: bold
+}
+A.aba:LINK {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold
+}
+A.aba:ACTIVE {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold
+}
+A.aba:VISITED {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #666666;
+	text-decoration: none;
+	font-weight: bold
+}
+A.aba:HOVER {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* novas abas ****************************************************/
+#header_aba {
+	float: left;
+	width: 100%;
+	background: #DAE0D2 url("../img/abas/blue/aba_bg2.gif") repeat-x bottom;
+	font-size: 8pt;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	line-height: normal;
+}
+#header_aba ul {
+	margin: 0;
+	padding: 10px 10px 0;
+	list-style: none;
+}
+#header_aba li {
+	float: left;
+	background: url("../img/abas/blue/aba_norm_left.gif") no-repeat left top;	
+	margin: 0;
+	padding: 0 0 0 9px;
+}
+#header_aba a, #header strong, #header span {
+	float: left;
+	background: url("../img/abas/blue/aba_norm_right.gif") no-repeat right top;
+	padding: 5px 15px 4px 6px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #003366;
+	/* Commented Backslash Hack
+	esconde para o IE5-Mac \*/
+	/*#header_aba a {float:none;}*/
+	/* End IE5-Mac hack */
+}
+#header_aba #current {
+	background-image: url("../img/abas/blue/aba_norm_left_on.gif");
+}
+#header_aba #current a {
+	background-image: url("../img/abas/blue/aba_norm_right_on.gif");
+	padding-bottom: 5px;
+}
+
+
+input, textarea, select {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+/************************************************************************************/
+/************************ estilo do calendario popup ********************************/
+
+div.calendar { position: relative; }
+
+.calendar, .calendar table {
+  border: 1px solid #556;
+  font-size: 11px;
+  color: #000;
+  cursor: default;
+  background: #F0F0F0;
+  font-family: tahoma,verdana,sans-serif;
+}
+
+.calendar .button { /* "<<", "<", ">", ">>" buttons have this class */
+  text-align: center;    /* They are the navigation buttons */
+  padding: 2px;          /* Make the buttons seem like they're pressing */
+}
+
+.calendar thead .title { /* This holds the current "month, year" */
+  font-weight: bold;      /* Pressing it will take you to the current date */
+  text-align: center;
+  background: #D6DEEC;
+  color: #000;
+  padding: 2px;
+}
+
+.calendar thead .headrow { /* Row <TR> containing navigation buttons */
+  background: #D6DEEC;
+  color: #fff;
+  color: #000000;
+}
+
+.calendar thead .daynames { /* Row <TR> containing the day names */
+  background: #E0E0E0;
+}
+
+.calendar thead .name { /* Cells <TD> containing the day names */
+  border-bottom: 1px solid #556;
+  padding: 2px;
+  text-align: center;
+  color: #000000;
+}
+
+.calendar thead .weekend { /* How a weekend day name shows in header */
+  color: #FFFFFF;
+}
+
+.calendar thead .hilite { /* How do the buttons in header appear when hover */
+  background: #3C5462;
+  color: #FFF;
+  border: 1px solid #3C5462;
+  padding: 1px;
+}
+
+.calendar thead .active { /* Active (pressed) buttons in header */
+  background: #77c;
+  padding: 2px 0px 0px 2px;
+}
+
+/* The body part -- contains all the days in month. */
+
+.calendar tbody .day { /* Cells <TD> containing month days dates */
+  width: 2em;
+  color: #456;
+  text-align: right;
+  padding: 2px 4px 2px 2px;
+}
+
+.calendar tbody .hilite { /* Hovered cells <TD> */
+  background: #DEE7EB;
+  padding: 1px 3px 1px 1px;
+  border: 1px solid #bbb;
+}
+
+.calendar tbody .active { /* Active (pressed) cells <TD> */
+  background: #cde;
+  padding: 2px 2px 0px 2px;
+}
+
+.calendar tbody .selected { /* Cell showing today date */
+  font-weight: bold;
+  border: 1px solid #000;
+  padding: 1px 3px 1px 1px;
+  background: #fff;
+  color: #000;
+}
+
+.calendar tbody .weekend { /* Cells showing weekend days */
+  color: #a66;
+}
+
+.calendar tbody .today { /* Cell showing selected date */
+  font-weight: bold;
+  color: #000;
+}
+
+.calendar tbody .disabled { color: #999; }
+
+.calendar tbody .emptycell { /* Empty cells (the best is to hide them) */
+  visibility: hidden;
+}
+
+.calendar tbody .emptyrow { /* Empty row (some months need less than 6 rows) */
+  display: none;
+}
+
+/* The footer part -- status bar and "Close" button */
+
+.calendar tfoot .footrow { /* The <TR> in footer (only one right now) */
+  text-align: center;
+  background: #D6DEEC;
+  color: #fff;
+}
+
+.calendar tfoot .ttip { /* Tooltip (status bar) cell <TD> */
+  background: #D6DEEC;
+  color: #445;
+  border-top: 1px solid #556;
+  padding: 1px;
+}
+
+.calendar tfoot .hilite { /* Hover style for buttons in footer */
+  background: #aaf;
+  border: 1px solid #04f;
+  color: #000;
+  padding: 1px;
+}
+
+.calendar tfoot .active { /* Active (pressed) style for buttons in footer */
+  background: #77c;
+  padding: 2px 0px 0px 2px;
+}
+
+/* Combo boxes (menus that display months/years for direct selection) */
+
+.combo {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 4em;
+  cursordefault;
+  border: 1px solid #655;
+  background: #D6DEEC;
+  color: #000;
+  font-size: smaller;
+}
+
+.combo .label {
+  width: 100%;
+  text-align: center;
+}
+
+.combo .hilite {
+  background: #D6DEEC;
+}
+
+.contenedorfoto {   
+   width:120px; 
+   height:130px; 
+   margin: 10px; 
+   padding:5px; 
+   background-color:#f5f7f9; 
+   border-right: #a5a7aa solid 1px; 
+   border-bottom: #a5a7aa solid 1px; 
+   text-align:center; 
+} 
+
+.contenedor{   
+   width:120px; 
+   margin: 10px; 
+   padding:5px; 
+   background-color:#f5f7f9; 
+   border-right: #a5a7aa solid 1px; 
+   border-bottom: #a5a7aa solid 1px; 
+   text-align:center; 
+} 
+
+
+checkbox.normal {background-color: #FFFFFF; font-weight: normal; font-size: px; color: black;}
+
+.gridfilaon {font-family: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE:12px; PADDING-LEFT:3px;PADDING-RIGHT:3px;BACKGROUND-COLOR:#C1CDD8} 
+
+.ANULADO {background-color:#FF9C8C; } 
+.ATENDIDO {background-color:#D9FFEA; } 
+.EN_ESPERA {background-color:#FFFFCC; }
+.RECIBIDO {background-color:#FFDD76 }
+.CERRADO {background-color:#E1D7EA }
+
+.botonAgg{
+	background-color: #ECECEC;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #AAAAAA
+}
+.botonImp{
+	background-color: #F2EAD0;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #AAAAAA;
+}
+
+A.linkOrange:LINK {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #DD6F00;
+	text-decoration: none;
+}
+A.linkOrange:ACTIVE {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #DD6F00;
+	text-decoration: none;
+}
+A.linkOrange:VISITED {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #DD6F00;
+	text-decoration: none;
+}
+A.linkOrange:HOVER {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #DD6F00;
+	text-decoration: underline;
+}
+A.botaoOrange:LINK {
+	background-color: #F2EAD0;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #AAAAAA
+}
+A.botaoOrange:ACTIVE {
+	background-color: #F2EAD0;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #AAAAAA
+}
+A.botaoOrange:VISITED {
+	background-color: #F2EAD0;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #AAAAAA
+}
+A.botaoOrange:HOVER {
+	background-color: #FFC23C;
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #CED0C0;
+}
+
+.ColumnBlueTD {
+	background-color: #184680;
+	height: 22px;
+	padding: 2px;
+	border-right: 1px solid #C1C1C1;
+	border-bottom: 1px solid #C1C1C1;
+	border-left: 1px solid #F0F0F0;
+}
+
+.FormTotalBlueTD {
+	background-color: #B1C3D9;
+	border-bottom: 2px solid #F0F0F0;
+}
+
+.BordeatablaBlue {
+	font-size: 10px;
+	color: #000000;
+	font-weight:700;
+	background:#D6DEEC;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+
+.AlternateBackBlueTD {	background-color: #FFFFFF; } 
+
+.ColumnWhiteFONT {
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+
+.LabelBlueTD {
+	background-color: #B1C3D9;
+	text-align: right;
+	height: 22px;
+	padding: 2px;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.BackBlueTD {background-color:#F1F3F5; } 
+
+.BackRedTR {background-color:#FFD9D9;} 
+.BackGreenTR {background-color:#D9FFEA;} 
+
+.LabelTranspFONT {
+	font-size: 8pt;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+
+.LabelTranspTD {
+	background-color: #3162A6;
+	text-align: right;
+	height: 22px;
+	padding: 2px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.BackTDTRANS {background-color: #DDE7F4; } 
+
+.ColumnTranspTD {
+	background-color: #9B222A;
+	height: 22px;
+	padding: 2px;
+	border-right: 1px solid #C1C1C1;
+	border-bottom: 1px solid #C1C1C1;
+	border-left: 1px solid #F0F0F0;
+}
+.ColumnTranspFONT {
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+.FormHeaderTranspTD {
+	background-color: #3162A6;
+	text-align: Center;
+	border-bottom: 2px solid #F0F0F0;
+}
+
+.BackTranspTD {background-color:#FFFFE3} 
+
+.AlternateTranspBackTD {background-color:#DDE7F4; } 
+
+.BordeatablaTransp {
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight:700;
+	background:#3162A6;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+
+.over {
+	background: #C1CDD8;
+}
+.selected {
+	background:#FFFFCC;
+}
+
+A.linkRed:LINK {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+A.linkRed:ACTIVE {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+A.linkRed:VISITED {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+A.linkRed:HOVER {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	font-style: normal;
+	color: #DD6F00;
+	text-decoration: underline;
+}
+.ColumnWholeFONT {
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, Arial, Helvetica
+}
+
+.new {
+	color:red;
+	font-size:80%;
+	text-decoration:none;
+	vertical-align:super;
+}
+
+.DivEdicion {
+	display:none;
+	position:absolute;
+	width:80%; 
+	border:3px solid; 
+	border-color:#95B3DE;
+	padding:4px 4px 0px 4px; 
+	margin: 50px 10px; 
+	background-color: #FFFFFF;	
+}
