@@ -1,16 +1,17 @@
 <?
-//Datos de conexión hacia la Base de Datos
-$dbhost = '172.16.80.251:5432';	// host
-$dbUsuario = 'postgres';	// usuario de conexión a la BD
-$dbpassword = 'ORDITI';	// password de conexión a la BD
+//Datos de conexiï¿½n hacia la Base de Datos
+//$dbhost = 'localhost';	// hostsdasdasdasdasdasd
+$dbhost = 'localhost';
+$dbUsuario = 'postgres';	// usuario de conexiï¿½n a la BD
+$dbpassword = '123456';	// password de conexiï¿½n a la BD
 $dbName='sisgedonew'; // Nombre de la Base Datos
 $dbtype = "postgres";  // Tipo de Bd
 
 /* Servidor Smtp encargado de enviar correos. */
-$ipSmtp = "172.16.0.4"; 
+$ipSmtp = "172.16.0.4";
 
-/* depe_id de la oficina tramite documentario de la Dirección Regional de Trabajo.  Esto es usado para el registro de expdtes por parte de Entidades privadas. */
-$depeid_trabajo = 928; 
+/* depe_id de la oficina tramite documentario de la Direcciï¿½n Regional de Trabajo.  Esto es usado para el registro de expdtes por parte de Entidades privadas. */
+$depeid_trabajo = 928;
 
 /* Indicador para trabajar con tabla Tupa para expedientes externos */
 $SG_Tupa = 0; // 1 -> Al seleccionar Expdte Externo pide el TUPA
@@ -22,7 +23,7 @@ $muestra_adjuntar = 0;
 /* Indicador para que permita al supervisor crear usuarios  */
 $supervisorCreaUsuarios = 0;
 
-/* Para el uso de las librerías del Siga */
+/* Para el uso de las librerï¿½as del Siga */
 define("DB_HOST",$dbhost);
 define("DB_USER", $dbUsuario);
 define("DB_PASSWORD",$dbpassword);
@@ -30,11 +31,11 @@ define("DB_DATABASE",$dbName);
 define("DB_PERSISTENT",false);
 define("IP_SMTP",$ipSmtp);
 
-define(_CARPETAAPP_,'sisgedonew'); /* Nombre de la carpeta de la aplicación  */
-define(SIS_EMAIL_GMAIL,'gobiernoregionaljunin@gmail.com'); /* Nombre de la carpeta de la aplicación  */
-define(SIS_PASS_EMAIL_GMAIL,'abc123++'); /* Nombre de la carpeta de la aplicación  */
-define("SIS_URL_SISTEMA",'http://www.regionjunin.gob.pe/sisgedonew/');
-define("SIS_EMPRESA","Gobierno Regional Junin");
+define(_CARPETAAPP_,'sisgedonew'); /* Nombre de la carpeta de la aplicaciï¿½n  */
+define(SIS_EMAIL_GMAIL,'abc123@gmail.com'); /* Nombre de la carpeta de la aplicaciï¿½n  */
+define(SIS_PASS_EMAIL_GMAIL,'abc123++'); /* Nombre de la carpeta de la aplicaciï¿½n  */
+define("SIS_URL_SISTEMA",'http://sytra.munitayacaja.gob.pe/');
+define("SIS_EMPRESA","Municipalidad Provincial de Tayacaja");
 
 
 /* Para los que usan Dependencia en lugar de Local */
